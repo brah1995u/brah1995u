@@ -2,6 +2,8 @@
 
 I build websites, online ordering systems, automations and casual Android games. I work as **Cortex Studio**, mostly for small businesses in Spain.
 
+> These are only the projects I can share publicly. Most of my work is client projects or internal tools, so that code stays private.
+
 ### Live websites
 
 - **[Anticapizza](https://www.anticapizza.es)**: pizzeria in Playa de Gandía. Online ordering with delivery zones, Stripe payments, 5 languages, an admin console and an Android app that prints kitchen tickets on a Sunmi printer. *Next.js, React, TypeScript, Supabase, Tailwind*
@@ -9,6 +11,11 @@ I build websites, online ordering systems, automations and casual Android games.
 - **[Cortex Studio](https://cortexstudio.es)**: my studio's website. ES/EN, code-split sections, consent-gated analytics, a WebGL background. *React, TypeScript, Vite, Tailwind* · [source](https://github.com/brah1995u/cortex-studio-website)
 
 The two restaurant sites are client projects, so their source code stays private.
+
+### Automation
+
+- **[Local Lead Finder](https://github.com/brah1995u/n8n-local-lead-finder)**: finds local restaurants through Google Maps, checks whether they have their own online ordering, scores them as leads and syncs them to Airtable. It has budget guards, safe retries and encrypted backups. *n8n, Python, FastAPI, PostgreSQL, Apify, Playwright, pytest*
+- **[Reels Content Pipeline](https://github.com/brah1995u/n8n-reels-content-pipeline)**: Airtable buttons drive one n8n workflow of about 86 nodes. It covers reference research, transcription, an AI script with structured output and HeyGen avatar rendering. The workflow is generated from Python. *n8n, Python, OpenAI, AssemblyAI, Apify, HeyGen MCP, Docker*
 
 ### Web app
 
