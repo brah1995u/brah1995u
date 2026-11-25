@@ -12,6 +12,10 @@ I build websites, online ordering systems, automations and casual Android games.
 
 The two restaurant sites are client projects, so their source code stays private.
 
+### AI agents
+
+- **[AI Support Agent](https://github.com/brah1995u/ai-support-agent)**: a customer-support agent for a fictional bus and train company. Claude with tools (trips, bookings verified by code + email, help center, tickets, handoff), hybrid RAG over the help center (pgvector + full-text, multilingual), live handoff to a human operator, an operator console with per-turn traces (tool calls, tokens, cost, latency), an MCP server and an eval suite in English, Spanish and Ukrainian. Runs on Claude or a local model. *Next.js, TypeScript, Anthropic SDK, Postgres + pgvector, MCP, Vitest*
+
 ### Automation
 
 - **[Local Lead Finder](https://github.com/brah1995u/n8n-local-lead-finder)**: finds local restaurants through Google Maps, checks whether they have their own online ordering, scores them as leads and syncs them to Airtable. It has budget guards, safe retries and encrypted backups. *n8n, Python, FastAPI, PostgreSQL, Apify, Playwright, pytest*
