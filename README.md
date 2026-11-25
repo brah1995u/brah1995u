@@ -15,6 +15,7 @@ The two restaurant sites are client projects, so their source code stays private
 ### Automation
 
 - **[Local Lead Finder](https://github.com/brah1995u/n8n-local-lead-finder)**: finds local restaurants through Google Maps, checks whether they have their own online ordering, scores them as leads and syncs them to Airtable. It has budget guards, safe retries and encrypted backups. *n8n, Python, FastAPI, PostgreSQL, Apify, Playwright, pytest*
+- **[Lead Signal Agent](https://github.com/brah1995u/lead-signal-agent)**: finds public conversations where people look for a product like yours and scores each one against an ideal customer profile (intent, fit 0-100, reasons, a suggested reply). Runs on Claude or a local model through Ollama. My rewrite of an MIT-licensed lead-generation script by Gurpreet Kaur: new sources, LLM qualification, SQLite dedupe, CLI, Streamlit UI, tests and an eval set. *Python, Anthropic SDK, Pydantic, Streamlit, pytest*
 - **[Reels Content Pipeline](https://github.com/brah1995u/n8n-reels-content-pipeline)**: Airtable buttons drive one n8n workflow of about 86 nodes. It covers reference research, transcription, an AI script with structured output and HeyGen avatar rendering. The workflow is generated from Python. *n8n, Python, OpenAI, AssemblyAI, Apify, HeyGen MCP, Docker*
 
 ### Web app
@@ -31,7 +32,7 @@ All three are written in Kotlin with Jetpack Compose. The game logic is pure Kot
 
 ### Tech
 
-**TypeScript** · **React** · **Next.js** · **Node.js** · **Supabase** · **Tailwind** · **n8n** · **Kotlin** · **Jetpack Compose**
+**TypeScript** · **React** · **Next.js** · **Node.js** · **Python** · **Supabase** · **Tailwind** · **n8n** · **LLM agents** · **Kotlin** · **Jetpack Compose**
 
 ### Contact
 
